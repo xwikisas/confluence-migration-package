@@ -38,7 +38,7 @@
     <blog-application.version>9.13.11</blog-application.version>
     <macro-pdf.version>2.6.1</macro-pdf.version>
     <xwiki-pro.version>13.13.3</xwiki-pro.version>
-    <confluence-xml.version>9.88.2</confluence-xml.version>
+    <confluence-xml.version>9.88.3</confluence-xml.version>
     <macrofullcalendar.version>2.4.5</macrofullcalendar.version>
     <!--  Needed for Latex dependency coming from XWiki Pro  -->
     <dockerJava.version>3.3.6</dockerJava.version>
