@@ -37,7 +37,7 @@
     <task-manager.version>3.9.2</task-manager.version>
     <blog-application.version>9.14</blog-application.version>
     <macro-pdf.version>2.6.2</macro-pdf.version>
-    <xwiki-pro.version>13.13.3</xwiki-pro.version>
+    <xwiki-pro.version>13.13.4</xwiki-pro.version>
     <confluence-xml.version>9.88.4</confluence-xml.version>
     <macrofullcalendar.version>2.4.6</macrofullcalendar.version>
     <!--  Needed for Latex dependency coming from XWiki Pro  -->
