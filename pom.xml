@@ -44,7 +44,7 @@
     <dockerJava.version>3.3.6</dockerJava.version>
     <!--  Remove after XWiki Pro will not depend on the legacy module of pro macros anymore.  -->
     <xwiki.enforcer.no-legacy-dependencies.skip>true</xwiki.enforcer.no-legacy-dependencies.skip>
-    <diagram.version>1.22.9</diagram.version>
+    <diagram.version>1.22.10</diagram.version>
   </properties>
   <scm>
     <connection>scm:git:git://github.com/xwikisas/confluence-migration-package.git</connection>
