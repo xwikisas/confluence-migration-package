@@ -42,7 +42,7 @@
     <mocca.version>2.18.1</mocca.version>
     <macrofullcalendar.version>2.5.1</macrofullcalendar.version>
     <!--  Needed for Latex dependency coming from XWiki Pro  -->
-    <dockerJava.version>3.3.6</dockerJava.version>
+    <dockerJava.version>3.7.0</dockerJava.version>
     <!--  Remove after XWiki Pro will not depend on the legacy module of pro macros anymore.  -->
     <xwiki.enforcer.no-legacy-dependencies.skip>true</xwiki.enforcer.no-legacy-dependencies.skip>
     <diagram.version>1.22.11</diagram.version>
@@ -160,6 +160,26 @@
           <!-- Exclude dependencies since the version of XWiki specified in the platform parent POM can provide older
                versions than the ones defined in docker-java -->
           <exclusion>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-compress</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
           </exclusion>
@@ -173,6 +193,12 @@
         <groupId>com.github.docker-java</groupId>
         <artifactId>docker-java-transport-httpclient5</artifactId>
         <version>${dockerJava.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.apache.httpcomponents.client5</groupId>
+            <artifactId>httpclient5</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
     </dependencies>
   </dependencyManagement>
