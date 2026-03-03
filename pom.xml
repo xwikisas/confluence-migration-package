@@ -45,7 +45,7 @@
     <dockerJava.version>3.7.0</dockerJava.version>
     <!--  Remove after XWiki Pro will not depend on the legacy module of pro macros anymore.  -->
     <xwiki.enforcer.no-legacy-dependencies.skip>true</xwiki.enforcer.no-legacy-dependencies.skip>
-    <diagram.version>1.22.11</diagram.version>
+    <diagram.version>1.23</diagram.version>
     <urlshortener.version>1.2.9</urlshortener.version>
   </properties>
   <scm>
