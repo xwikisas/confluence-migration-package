@@ -46,7 +46,7 @@
     <!--  Remove after XWiki Pro will not depend on the legacy module of pro macros anymore.  -->
     <xwiki.enforcer.no-legacy-dependencies.skip>true</xwiki.enforcer.no-legacy-dependencies.skip>
     <diagram.version>1.23</diagram.version>
-    <urlshortener.version>1.3</urlshortener.version>
+    <urlshortener.version>1.3.1</urlshortener.version>
   </properties>
   <scm>
     <connection>scm:git:git://github.com/xwikisas/confluence-migration-package.git</connection>
