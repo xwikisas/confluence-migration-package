@@ -40,7 +40,7 @@
     <macro-pdf.version>2.7</macro-pdf.version>
     <xwiki-pro.version>13.13.4</xwiki-pro.version>
     <mocca.version>2.18.2</mocca.version>
-    <macrofullcalendar.version>2.5.1</macrofullcalendar.version>
+    <macrofullcalendar.version>2.5.2</macrofullcalendar.version>
     <!--  Needed for Latex dependency coming from XWiki Pro  -->
     <dockerJava.version>3.7.1</dockerJava.version>
     <!--  Remove after XWiki Pro will not depend on the legacy module of pro macros anymore.  -->
