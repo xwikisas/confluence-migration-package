@@ -36,7 +36,7 @@
     <confluence-migrator.version>1.43.2</confluence-migrator.version>
     <pro-macros.version>1.32.1</pro-macros.version>
     <task-manager.version>3.11.2</task-manager.version>
-    <blog-application.version>9.15.9</blog-application.version>
+    <blog-application.version>9.15.10</blog-application.version>
     <macro-pdf.version>2.7.3</macro-pdf.version>
     <xwiki-pro.version>15.10.1</xwiki-pro.version>
     <mocca.version>2.19.1</mocca.version>
