@@ -31,7 +31,7 @@
   <packaging>pom</packaging>
   <name>Confluence Migration Toolkit - Parent POM</name>
   <properties>
-    <licensing.version>1.32.3</licensing.version>
+    <licensing.version>1.32.4</licensing.version>
     <confluence-xml.version>9.96.2</confluence-xml.version>
     <confluence-migrator.version>1.43.2</confluence-migrator.version>
     <pro-macros.version>1.32.1</pro-macros.version>
