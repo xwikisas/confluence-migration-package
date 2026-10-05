@@ -33,7 +33,7 @@
   <properties>
     <licensing.version>1.32.4</licensing.version>
     <confluence-xml.version>9.96.5</confluence-xml.version>
-    <confluence-migrator.version>1.43.2</confluence-migrator.version>
+    <confluence-migrator.version>1.43.3</confluence-migrator.version>
     <pro-macros.version>1.32.2</pro-macros.version>
     <task-manager.version>3.11.4</task-manager.version>
     <blog-application.version>9.15.12</blog-application.version>
