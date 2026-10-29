@@ -62,6 +62,13 @@
       <type>xar</type>
     </dependency>
     <dependency>
+      <groupId>com.xwiki.jirapro</groupId>
+      <artifactId>jira-pro</artifactId>
+      <version>${jira-pro.version}</version>
+      <scope>runtime</scope>
+      <type>xar</type>
+    </dependency>
+    <dependency>
       <groupId>org.xwiki.contrib.blog</groupId>
       <artifactId>application-blog-ui</artifactId>
       <version>${blog-application.version}</version>

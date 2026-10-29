@@ -36,6 +36,7 @@
     <confluence-migrator.version>1.43.6</confluence-migrator.version>
     <pro-macros.version>1.33.0</pro-macros.version>
     <task-manager.version>3.11.4</task-manager.version>
+    <jira-pro.version>1.0.1</jira-pro.version>
     <blog-application.version>9.15.15</blog-application.version>
     <macro-pdf.version>2.7.3</macro-pdf.version>
     <xwiki-pro.version>15.10.2</xwiki-pro.version>
@@ -134,6 +135,12 @@
         <groupId>com.xwiki.task</groupId>
         <artifactId>application-task-ui</artifactId>
         <version>${task-manager.version}</version>
+        <type>xar</type>
+      </dependency>
+      <dependency>
+        <groupId>com.xwiki.jirapro</groupId>
+        <artifactId>jira-pro</artifactId>
+        <version>${jira-pro.version}</version>
         <type>xar</type>
       </dependency>
       <dependency>
