@@ -67,6 +67,15 @@
       <version>${jira-pro.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
+      <exclusions>
+        <!-- checker-qual (pulled by the JIRA macro) is in the 15.10 WAR, so it's not packaged in the XIP, but the
+             WAR doesn't have it anymore since XWiki 17.10, so offline installs fail. It only contains annotations,
+             not needed at runtime. Can be removed once the JIRA macro or JIRA Pro doesn't depend on it anymore. -->
+        <exclusion>
+          <groupId>org.checkerframework</groupId>
+          <artifactId>checker-qual</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.xwiki.contrib.blog</groupId>
