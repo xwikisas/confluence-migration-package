@@ -35,7 +35,7 @@
     <confluence-xml.version>9.96.7</confluence-xml.version>
     <confluence-migrator.version>1.43.6</confluence-migrator.version>
     <pro-macros.version>1.33.0</pro-macros.version>
-    <task-manager.version>3.11.4</task-manager.version>
+    <task-manager.version>3.12.0</task-manager.version>
     <jira-pro.version>1.0.2</jira-pro.version>
     <blog-application.version>9.15.15</blog-application.version>
     <macro-pdf.version>2.8.0</macro-pdf.version>
